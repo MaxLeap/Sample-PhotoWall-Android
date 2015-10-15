@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PhotoWall</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_photolist">Photo Wall</string>
+    <string name="action_take_picture">Take Picture</string>
+
+    <string name="err_require_username">Username is required.</string>
+    <string name="err_require_password">Password is required.</string>
+    <string name="err_connect_error">Connection failed.</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="tab_local">Local</string>
+    <string name="tab_global">Global</string>
+    <string name="empty_list">Photo not exist.</string>
+    <string name="err_geo_error">Unable to get current location.</string>
+    <string name="title">Title</string>
+    <string name="err_require_title">Title is required.</string>
+    <string name="err_image_not_exist">Image not exist.</string>
+    <string name="reset">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="action_logout">Log Out</string>
+    <string name="err_require_email">Email is required.</string>
+    <string name="err_invalid_email">Email address is in incorrect.</string>
+    <string name="msg_confirm_email">Email has sent. Please check it in your mailbox.</string>
+    <string name="send">Send</string>
+</resources>
