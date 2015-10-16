@@ -8,7 +8,7 @@ PhotoWall 是 MaxLeap SDK 的一个 Sample，该项目依赖于 MaxLeap 的基�
 
 ## 效果
 
-<img src="capture/photoWall.gif" alt="capture" style="width: 200px;"/>
+<img src="capture/photowall.gif" alt="capture" style="width: 200px;"/>
 
 ## 使用
 
