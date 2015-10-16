@@ -70,6 +70,12 @@ public class PhotoListFragment extends ListFragment {
         MLQuery<Photo> query = Photo.getQuery();
 
         if (mType == TYPE_LOCAL) {
+            if (Utils.getPreviousLocation() == null) {
+                setListShown(true);
+                setListAdapter(null);
+                return;
+            }
+
             query.whereWithinKilometers(Photo.LOCATION, Utils.getPreviousLocation(), 10);
         } else {
             query.orderByDescending(MLObject.KEY_UPDATED_AT);
