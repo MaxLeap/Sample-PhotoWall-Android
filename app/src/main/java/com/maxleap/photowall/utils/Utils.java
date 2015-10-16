@@ -1,12 +1,18 @@
 package com.maxleap.photowall.utils;
 
 import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
 import android.widget.Toast;
-import com.maxleap.LocationCallback;
-import com.maxleap.MLGeoPoint;
-import com.maxleap.MLLocationManager;
-import com.maxleap.MLLog;
+import com.maxleap.*;
 import com.maxleap.exception.MLException;
+import com.maxleap.exception.MLExceptionHandler;
+
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.TimeUnit;
 
 public class Utils {
 
@@ -44,7 +50,7 @@ public class Utils {
 
     public static MLGeoPoint getPreviousLocation() {
         if (sCurrentLocation == null)
-            return new MLGeoPoint(sMockLocation.getLatitude(), sMockLocation.getLongitude());
+            return null;
         return new MLGeoPoint(sCurrentLocation.getLatitude(), sCurrentLocation.getLongitude());
     }
 }
